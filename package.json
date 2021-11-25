@@ -1,0 +1,19 @@
+{
+  "name": "micro-library",
+  "version": "0.0.1",
+  "description": "feds share toys",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank3en/micro-library.git"
+  },
+  "author": "frank3en <frank3en@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frank3en/micro-library/issues"
+  },
+  "homepage": "https://github.com/frank3en/micro-library#readme"
+}
