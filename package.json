@@ -2,7 +2,10 @@
   "name": "micro-library",
   "version": "0.0.1",
   "description": "feds share toys",
-  "main": "src/index.js",
+  "main": "dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "npm-run-all build:*",
