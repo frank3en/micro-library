@@ -4,7 +4,7 @@ front-end devs share toys.
 
 ## Features
 
-- [ ] Setup
+- [x] Setup
 - [ ] Lint
 - [ ] Test
 - [ ] Test
@@ -29,6 +29,12 @@ front-end devs share toys.
     init-version = "0.0.1"
    ```
 
+## Section2. Lint
+
+1. [ESLint](https://eslint.org/docs/user-guide/getting-started)
+2. `eslint --init`
+3. in `package.json` add script: `lint: "eslint ."`
+
 ## Links
 
 ### sections
@@ -46,3 +52,4 @@ front-end devs share toys.
 ### resources
 
 - [shields.io](https://shields.io/)
+- [commitizen](https://juejin.cn/post/6844903606815064077)
