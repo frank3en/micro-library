@@ -1,5 +1,5 @@
 import { sleep, capitalize } from "./index";
-import { test, expect } from "@jest/globals";
+
 
 test("the async sleep mock async function sleep 1000ms", async () => {
   expect.assertions(0);

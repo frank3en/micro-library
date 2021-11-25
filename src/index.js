@@ -7,8 +7,4 @@ const capitalize = ([first, ...rest], locale = navigator.language) =>
 
 // const eslintTest = {};
 
-export default {
-  sleep,
-  capitalize,
-};
-
+export { sleep, capitalize };

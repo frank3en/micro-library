@@ -7,7 +7,7 @@ front-end devs share toys.
 - [x] Setup
 - [x] Lint
 - [x] Test
-- [ ] Babel
+- [x] Babel - transpile code from `cmj` to `esm`
 - [ ] Webpack
 - [ ] CI
 - [ ] Test Coverage
@@ -41,11 +41,21 @@ front-end devs share toys.
 
 transpiling files && use esmodule to run test
 
+[babel config](https://babeljs.io/docs/en/configuration)
+
 in `03-trend-babel` branch run `npm run test`, will occur:
 
 > Jest encountered an unexpected token
 
+Solution:
 
+`npm install --save-dev @babel/core @babel/cli @babel/preset-env`
+
+create `babel.config.json`
+
+add `cross-env` and `{env:{test:{...}}}` in `babel.config.json`
+
+add eslint plugins for jest `yarn add --dev eslint eslint-plugin-jest`
 
 ## Links
 

@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest",
+    "test": "cross-env NODE_ENV=test jest",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "commit": "git-cz"
   },
@@ -20,12 +20,16 @@
   },
   "homepage": "https://github.com/frank3en/micro-library#readme",
   "devDependencies": {
-    "@jest/globals": "27.3.1",
-    "@jest/types": "27.2.5",
+    "@babel/cli": "7.16.0",
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.4",
+    "babel-jest": "27.3.1",
     "codecov": "3.8.3",
     "commitizen": "4.2.4",
+    "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.3.0",
+    "eslint-plugin-jest": "25.3.0",
     "jest": "27.3.1"
   },
   "config": {

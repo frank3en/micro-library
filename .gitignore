@@ -3,6 +3,7 @@ node_modules/
 
 # lock file
 package-lock.json
+yarn.lock
 
 # test coverage
 coverage
