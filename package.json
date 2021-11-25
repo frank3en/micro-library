@@ -20,6 +20,7 @@
   "homepage": "https://github.com/frank3en/micro-library#readme",
   "devDependencies": {
     "@jest/globals": "27.3.1",
+    "@jest/types": "27.2.5",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.3.0",

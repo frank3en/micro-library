@@ -1,4 +1,4 @@
-const { sleep } = require("./index");
+const { sleep, capitalize } = require("./index");
 const { test, expect } = require("@jest/globals");
 
 test("the async sleep mock async function sleep 1000ms", async () => {
@@ -10,3 +10,6 @@ test("the async sleep mock async function sleep 1000ms", async () => {
   }
 });
 
+test("capitalize strings test is Test", () => {
+  expect(capitalize("test")).toBe("Test");
+});
