@@ -5,9 +5,9 @@ front-end devs share toys.
 ## Features
 
 - [x] Setup
-- [ ] Lint
-- [ ] Test
-- [ ] Test
+- [x] Lint
+- [x] Test
+- [ ] Test Coverage
 - [ ] Git hooks
 - [ ] Babel
 - [ ] Webpack
