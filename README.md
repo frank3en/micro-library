@@ -7,11 +7,11 @@ front-end devs share toys.
 - [x] Setup
 - [x] Lint
 - [x] Test
-- [ ] Test Coverage
-- [ ] Git hooks
 - [ ] Babel
 - [ ] Webpack
 - [ ] CI
+- [ ] Test Coverage
+- [ ] Git hooks
 
 ## Section1. Setup
 
