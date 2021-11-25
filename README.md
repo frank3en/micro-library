@@ -8,10 +8,11 @@ front-end devs share toys.
 - [x] Lint
 - [x] Test
 - [x] Babel - transpile code from `cmj` to `esm`
-- [ ] Webpack
+- [ ] Webpack - build - npm pack
 - [ ] CI
 - [ ] Test Coverage
 - [ ] Git hooks
+- [ ] Publish
 
 ## Section1. Setup
 
@@ -56,6 +57,16 @@ create `babel.config.json`
 add `cross-env` and `{env:{test:{...}}}` in `babel.config.json`
 
 add eslint plugins for jest `yarn add --dev eslint eslint-plugin-jest`
+
+## Section5. Webpack for build command
+
+The goal is to build `src` into a `umd-lib`.
+
+1. create `webpack.config.babel.js`
+2. add `npm run build:umd` script
+3. add `prebuild` script
+
+- [how to use esm in webpack.config.js](https://stackoverflow.com/questions/31903692/how-can-i-use-es6-in-webpack-config-js)
 
 ## Links
 
