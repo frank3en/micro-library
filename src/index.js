@@ -5,18 +5,10 @@ const sleep = (ms) => {
 const capitalize = ([first, ...rest], locale = navigator.language) =>
   first.toLocaleUpperCase(locale) + rest.join("");
 
-module.exports = {
+// const eslintTest = {};
+
+export default {
   sleep,
   capitalize,
 };
 
-// const eslintTest = {};
-
-// export default {
-//   sleep,
-// };
-
-// function sum(a, b) {
-//   return a + b;
-// }
-// module.exports = sum;

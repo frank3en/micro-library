@@ -35,6 +35,18 @@ front-end devs share toys.
 2. `eslint --init`
 3. in `package.json` add script: `lint: "eslint ."`
 
+## Section3. Test
+
+## Section4. Babel
+
+transpiling files && use esmodule to run test
+
+in `03-trend-babel` branch run `npm run test`, will occur:
+
+> Jest encountered an unexpected token
+
+
+
 ## Links
 
 ### sections
