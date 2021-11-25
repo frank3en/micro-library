@@ -1,6 +1,8 @@
 # micro-library
 
-front-end devs share toys.
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+Front-end devs share toys.
 
 ## Features
 
@@ -8,15 +10,13 @@ front-end devs share toys.
 - [x] Lint
 - [x] Test
 - [x] Babel - transpile code from `cmj` to `esm`
-- [ ] Webpack - build - npm pack
+- [x] Webpack - build - npm pack
 - [ ] CI
 - [ ] Test Coverage
 - [ ] Git hooks
 - [ ] Publish
 
 ## Section1. Setup
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 1. [The Open Source Definition](https://opensource.org/osd)
 2. [Code of Conduct](https://www.contributor-covenant.org/)
