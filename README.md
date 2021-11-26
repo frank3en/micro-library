@@ -12,10 +12,10 @@ Front-end devs share toys.
 - [x] Babel - transpile code from `cmj` to `esm`
 - [x] Webpack - build - npm pack
 - [x] CI
-- [ ] Test Coverage
-- [ ] Git hooks
 - [x] Publish
 - [x] Semantic Release with Github Actions
+- [ ] Git hooks
+- [ ] Test Coverage Report - in codecov
 
 ## Getting started
 
