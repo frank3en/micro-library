@@ -14,7 +14,8 @@ Front-end devs share toys.
 - [x] CI
 - [ ] Test Coverage
 - [ ] Git hooks
-- [ ] Publish
+- [x] Publish
+- [ ] Semantic Release with Github Actions
 
 ## Section1. Setup
 
@@ -73,6 +74,15 @@ The goal is to build `src` into a `umd-lib`.
 - [quick start](https://docs.github.com/cn/actions/quickstart)
 - [workflow](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows)
 - [starter-workflows](https://github.com/actions/starter-workflows/tree/main/ci)
+
+## Section7. Publish
+
+1. `npm login` && `npm publish`
+2. dupication name -> add scope
+   1. `npm login --scope=<scope>` 
+   2. change package name with `<scope>/pagename`
+   3. `npm publish --access public`
+3. npm version
 
 ## Links
 

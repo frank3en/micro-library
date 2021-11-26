@@ -1,5 +1,5 @@
 {
-  "name": "micro-library",
+  "name": "@frank3en/micro-library",
   "version": "0.0.1",
   "description": "feds share toys",
   "main": "dist/index.umd.js",
