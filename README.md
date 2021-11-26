@@ -11,7 +11,7 @@ Front-end devs share toys.
 - [x] Test
 - [x] Babel - transpile code from `cmj` to `esm`
 - [x] Webpack - build - npm pack
-- [ ] CI
+- [x] CI
 - [ ] Test Coverage
 - [ ] Git hooks
 - [ ] Publish
@@ -67,6 +67,11 @@ The goal is to build `src` into a `umd-lib`.
 3. add `prebuild` script
 
 - [how to use esm in webpack.config.js](https://stackoverflow.com/questions/31903692/how-can-i-use-es6-in-webpack-config-js)
+
+## Section6. CI with Github Actions
+
+- [quick start](https://docs.github.com/cn/actions/quickstart)
+- [workflow](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows)
 
 ## Links
 
