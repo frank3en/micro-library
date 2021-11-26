@@ -17,7 +17,6 @@ Front-end devs share toys.
 - [x] Publish
 - [ ] Semantic Release with Github Actions
 
-
 ## Quick Start
 
 ### Section1. Setup
@@ -82,10 +81,18 @@ The goal is to build `src` into a `umd-lib`.
 
 1. `npm login` && `npm publish`
 2. dupication name -> add scope
-   1. `npm login --scope=<scope>` 
+   1. `npm login --scope=<scope>`
    2. change package name with `<scope>/pagename`
    3. `npm publish --access public`
 3. `npm version`
+
+### Section8. Semantic Release with Github Actions
+
+- [actions.yml](https://github.com/marketplace/actions/action-for-semantic-release)
+
+1. setup configuration
+2. add secrets
+3. update workflow
 
 ## TODOs...
 
