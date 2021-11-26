@@ -17,7 +17,10 @@ Front-end devs share toys.
 - [x] Publish
 - [ ] Semantic Release with Github Actions
 
-## Section1. Setup
+
+## Quick Start
+
+### Section1. Setup
 
 1. [The Open Source Definition](https://opensource.org/osd)
 2. [Code of Conduct](https://www.contributor-covenant.org/)
@@ -31,15 +34,15 @@ Front-end devs share toys.
     init-version = "0.0.1"
    ```
 
-## Section2. Lint
+### Section2. Lint
 
 1. [ESLint](https://eslint.org/docs/user-guide/getting-started)
 2. `eslint --init`
 3. in `package.json` add script: `lint: "eslint ."`
 
-## Section3. Test
+### Section3. Test
 
-## Section4. Babel
+### Section4. Babel
 
 transpiling files && use esmodule to run test
 
@@ -59,7 +62,7 @@ add `cross-env` and `{env:{test:{...}}}` in `babel.config.json`
 
 add eslint plugins for jest `yarn add --dev eslint eslint-plugin-jest`
 
-## Section5. Webpack for build command
+### Section5. Webpack for build command
 
 The goal is to build `src` into a `umd-lib`.
 
@@ -69,20 +72,28 @@ The goal is to build `src` into a `umd-lib`.
 
 - [how to use esm in webpack.config.js](https://stackoverflow.com/questions/31903692/how-can-i-use-es6-in-webpack-config-js)
 
-## Section6. CI with Github Actions
+### Section6. CI with Github Actions
 
 - [quick start](https://docs.github.com/cn/actions/quickstart)
 - [workflow](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows)
 - [starter-workflows](https://github.com/actions/starter-workflows/tree/main/ci)
 
-## Section7. Publish
+### Section7. Publish
 
 1. `npm login` && `npm publish`
 2. dupication name -> add scope
    1. `npm login --scope=<scope>` 
    2. change package name with `<scope>/pagename`
    3. `npm publish --access public`
-3. npm version
+3. `npm version`
+
+## TODOs...
+
+0. ui-components test & coverage
+1. lerna for monorepo
+2. package size
+3. document with storybook/dumi
+4. ...
 
 ## Links
 
