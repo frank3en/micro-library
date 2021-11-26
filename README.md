@@ -9,13 +9,13 @@ Front-end devs share toys.
 
 - [x] Setup
 - [x] Lint
-- [x] Test
-- [x] Babel - transpile code from `cmj` to `esm`
+- [x] Test -jest
+- [x] Babel - transpile code from `cmj` to `esm` vite
 - [x] Webpack - build - npm pack
-- [x] CI
+- [x] CI github actions
 - [x] Publish
 - [x] Semantic Release with Github Actions
-- [ ] Git hooks - husky
+- [ ] Git hooks 
 - [x] Test Coverage Report - in codecov
 
 ## Getting started
