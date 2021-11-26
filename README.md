@@ -1,7 +1,7 @@
 # micro-library
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) ![Codecov](https://img.shields.io/codecov/c/gh/frank3en/micro-library?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/frank3en/micro-library/GitHub%20Actions%20Build?style=plastic)
-![npm bundle size](https://img.shields.io/bundlephobia/min/@frank3en/micro-library) ![NPM](https://img.shields.io/npm/l/@frank3en/micro-library) 
+![npm bundle size](https://img.shields.io/bundlephobia/min/@frank3en/micro-library) ![NPM](https://img.shields.io/npm/l/@frank3en/micro-library)
 
 Front-end devs share toys.
 
@@ -15,7 +15,7 @@ Front-end devs share toys.
 - [x] CI github actions
 - [x] Publish
 - [x] Semantic Release with Github Actions
-- [ ] Git hooks 
+- [ ] ~~Git hooks~~
 - [x] Test Coverage Report - in codecov
 
 ## Getting started
