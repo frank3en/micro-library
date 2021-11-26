@@ -1,6 +1,6 @@
 # micro-library
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) ![Codecov](https://img.shields.io/codecov/c/gh/frank3en/micro-library?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/frank3en/micro-library/GitHub%20Actions%20Build?style=plastic) 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) ![Codecov](https://img.shields.io/codecov/c/gh/frank3en/micro-library?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/frank3en/micro-library/GitHub%20Actions%20Build?style=plastic)
 
 Front-end devs share toys.
 
@@ -94,6 +94,8 @@ The goal is to build `src` into a `umd-lib`.
 1. setup configuration
 2. add secrets
 3. update workflow
+
+Other plugins like: [semantic-release-gitmoji](https://medium.com/cow-say/%E7%95%B6-semantic-release-%E9%81%87%E4%B8%8A-gitmoji-8a2ab349de40)
 
 ## TODOs...
 
