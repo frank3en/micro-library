@@ -15,9 +15,9 @@ Front-end devs share toys.
 - [ ] Test Coverage
 - [ ] Git hooks
 - [x] Publish
-- [ ] Semantic Release with Github Actions
+- [x] Semantic Release with Github Actions
 
-## Quick Start
+## Getting started
 
 ### Section1. Setup
 
@@ -89,6 +89,7 @@ The goal is to build `src` into a `umd-lib`.
 ### Section8. Semantic Release with Github Actions
 
 - [actions.yml](https://github.com/marketplace/actions/action-for-semantic-release)
+- [semantic-release configuration](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration)
 
 1. setup configuration
 2. add secrets
