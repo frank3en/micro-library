@@ -15,7 +15,7 @@ Front-end devs share toys.
 - [x] CI github actions
 - [x] Publish
 - [x] Semantic Release with Github Actions
-- [ ] ~~Git hooks~~
+- [ ] Git hooks
 - [x] Test Coverage Report - in codecov
 
 ## Getting started
